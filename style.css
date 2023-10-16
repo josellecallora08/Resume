@@ -1,7 +1,7 @@
 .main{
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-top: 20px;
     & p a{
         color: white;
         font-family: sans-serif;
