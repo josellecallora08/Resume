@@ -1,0 +1,29 @@
+.main{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    & p a{
+        color: white;
+        font-family: sans-serif;
+        text-decoration: none;
+        background-color: #166485;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 2px 4px 2px gray;
+        font-weight: 600;
+    }
+
+    & p a:hover{
+        color: #166485;
+        background-color: white;
+        transition: 300ms ease-in-out;
+    }
+}
+div.img{
+    display: flex;
+    justify-content: center;
+}
+    
+img{
+    box-shadow: 2px 4px 2px 2px gray;
+}
